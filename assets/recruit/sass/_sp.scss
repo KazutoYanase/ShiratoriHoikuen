@@ -1,0 +1,309 @@
+.pc {
+    display: none;
+}
+
+.sp {
+    display: block;
+}
+
+figure {
+    margin: 0 auto !important;
+}
+
+/*-----------------------------------------------------*/
+// Title No.
+/*-----------------------------------------------------*/
+
+.rec__no01,
+.rec__no02,
+.rec__no03,
+.rec__no04,
+.rec__no05,
+.rec__no06 {
+    background-position: 0 4px;
+    background-size: 55px auto;
+}
+
+/*-----------------------------------------------------*/
+// サブメニュー
+/*-----------------------------------------------------*/
+
+.submenu_wrap {
+    display: inline;
+
+    div {
+        padding-bottom: 1em;
+        padding-left: 12%;
+    }
+    div:last-child {
+        padding-bottom: 0;
+    }
+}
+
+/*-----------------------------------------------------*/
+// トップコピー部
+/*-----------------------------------------------------*/
+
+.copy_title {
+    font-size: 1.65em;
+    font-weight: 300;
+    width: 100%;
+    padding: 40px 0 25px;
+}
+
+.copy_txt {
+    width: 100%;
+    text-align: left;
+    line-height: 2em;
+    padding: 0 0 50px;
+}
+
+/*-----------------------------------------------------*/
+// 働きやすさづくり
+/*-----------------------------------------------------*/
+
+.env_box {
+    width: 100%;
+    line-height: 2em;
+
+    span {
+        font-size: 2rem;
+        line-height: 3rem;
+        color: #0a0;
+    }
+}
+
+/*-----------------------------------------------------*/
+// １日の仕事
+/*-----------------------------------------------------*/
+
+.recruit_daily {
+    width: 100%;
+    padding-bottom: 20px;
+
+    ul {
+        li {
+            align-items: flex-start;
+            background: none;
+            padding: 5px 0 0px;
+
+            .time {
+                width: 20%;
+
+                span {
+                    line-height: 1.2;
+                    font-weight: 700;
+
+                }
+            }
+
+            .body {
+                width: 77%;
+                padding-top: 1.9em;
+
+                dl {
+                    dt {
+                        font-size: 2rem;
+                        letter-spacing: 0.1em;
+                        margin-bottom: 5px;
+                        color: #0a0;
+                    }
+
+                    dd {
+                        line-height: 1.7;
+                        text-align: justify;
+                        text-justify: inter-ideograph;
+                    }
+                }
+            }
+
+            .img {
+                width: 77%;
+                margin: 5px 0 0 23%;
+
+                img {
+                    border-radius: 6px;
+                }
+            }
+
+            &:nth-child(odd) {
+                .time {
+                    order: 1;
+                }
+
+                .body {
+                    order: 2;
+                }
+
+                .img {
+                    order: 3;
+                }
+            }
+
+            &:nth-child(even) {
+                .time {
+                    order: 1;
+                }
+
+                .body {
+                    order: 2;
+
+                    dl {
+                        dt {
+                            text-align: left;
+                        }
+                    }
+                }
+
+                .img {
+                    order: 3;
+                }
+            }
+        }
+    }
+}
+
+/*-----------------------------------------------------*/
+// インタビュー
+/*-----------------------------------------------------*/
+
+.recruit_itv {
+    width: 100%;
+    padding-bottom: 20px;
+
+    ul {
+        li {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+
+            .img {
+                width: 70%;
+                margin: 0 auto 20px;
+
+                img {
+                    border-radius: 6px;
+                }
+            }
+
+            .body {
+                width: 90%;
+                margin: 0 auto;
+
+                .post {
+                    font-size: 1.6em;
+                    font-weight: 300;
+                }
+
+                .name {
+                    font-size: 1.4em;
+                }
+
+                .e {
+                    margin-bottom: 10px;
+                }
+
+                .txt {
+                    line-height: 2;
+                }
+            }
+        }
+    }
+}
+/*-----------------------------------------------------*/
+// 実習生について
+/*-----------------------------------------------------*/
+
+.recruit_intern {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+    .intern_title {
+        font-size: 1.4em;
+        color: #0a0;
+        margin-bottom: 20px;
+    }
+
+    .intern_wrap {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .intern_img {
+            width: 70%;
+            margin: 0 auto 20px;
+
+            img {
+                border-radius: 6px;
+            }
+        }
+
+        .intern_txt {
+            width: 100%;
+            padding-bottom: 0;
+
+            .intern_tel {
+                width: 85%;
+                margin: 20px auto 0;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/*-----------------------------------------------------*/
+// 募集要項
+/*-----------------------------------------------------*/
+
+.recruit_details {
+    width: 95%;
+    padding-bottom: 20px;
+
+    table {
+        width: auto;
+        th {
+            border-bottom: none;
+            display: block;
+        }
+
+        td {
+            border-bottom: none;
+            display: block;
+        }
+    }
+}
+
+/*-----------------------------------------------------*/
+// お問い合わせ
+/*-----------------------------------------------------*/
+
+.recruit_inq {
+    .inq_txt {
+        width: 90%;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    .inq_btn {
+        width: 90%;
+        padding: 30px 0 70px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+a[href*="tel:"] {
+    pointer-events: auto;
+}
