@@ -10,6 +10,10 @@ figure {
     margin: 0 auto !important;
 }
 
+body {
+    font-size: 14px;
+}
+
 /*-----------------------------------------------------*/
 // Title No.
 /*-----------------------------------------------------*/
@@ -45,7 +49,7 @@ figure {
 /*-----------------------------------------------------*/
 
 .copy_title {
-    font-size: 1.65em;
+    font-size: 1.45em;
     font-weight: 300;
     width: 100%;
     padding: 40px 0 25px;
@@ -64,7 +68,7 @@ figure {
 
 .env_box {
     width: 100%;
-    line-height: 2em;
+    line-height: 2;
 
     span {
         font-size: 2rem;
@@ -92,6 +96,7 @@ figure {
 
                 span {
                     line-height: 1.2;
+                    font-size: 12px;
                     font-weight: 700;
 
                 }
@@ -110,7 +115,7 @@ figure {
                     }
 
                     dd {
-                        line-height: 1.7;
+                        line-height: 1.8;
                         text-align: justify;
                         text-justify: inter-ideograph;
                     }
@@ -248,10 +253,11 @@ figure {
         .intern_txt {
             width: 100%;
             padding-bottom: 0;
+            line-height: 2;
 
             .intern_tel {
                 width: 85%;
-                margin: 20px auto 0;
+                margin: 30px auto 0;
 
                 img {
                     width: 100%;
@@ -274,6 +280,7 @@ figure {
         th {
             border-bottom: none;
             display: block;
+            font-weight: 600;
         }
 
         td {
