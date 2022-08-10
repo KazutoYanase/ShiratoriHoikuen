@@ -59,7 +59,17 @@ body {
     width: 100%;
     text-align: left;
     line-height: 2em;
-    padding: 0 0 50px;
+    padding: 0 0 30px;
+}
+.copy_movie {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 60px;
+    iframe {
+        width: 100%;
+        height: 51.75vw;
+    }
 }
 
 /*-----------------------------------------------------*/

@@ -56,6 +56,16 @@ body {
     line-height: 2.5em;
     padding: 0 0 70px;
 }
+.copy_movie {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 0 120px;
+    iframe {
+        width: 800px;
+        height: 450px;
+    }
+}
 
 /*-----------------------------------------------------*/
 // Title No.
